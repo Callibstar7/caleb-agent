@@ -1,35 +1,62 @@
-# caleb
+# Caleb Agent 🤖
 
-This is an [eve](https://eve.dev) agent bootstrapped with [`eve init`](https://eve.dev/docs/reference/cli#eve-init).
+A personal AI agent project built with modern web technologies and the Eve agent framework.
 
-## Getting started
+## About the Project
 
-First, run the development server:
+Caleb Agent is an AI-focused development project designed to explore intelligent agent applications and modern web development.
 
-```bash
-eve dev
-```
+## Technologies Used
 
-The development TUI opens an interactive session where you can send messages to your agent.
+- Next.js
+- React
+- TypeScript
+- Eve Agent Framework
 
-Start by editing `agent/instructions.md` to define the agent's identity, purpose, tone, and response guidelines. Configure its model and runtime behavior in `agent/agent.ts`.
+## Features
 
-Add capabilities under `agent/`, including tools, connections, channels, skills, subagents, and schedules. eve reloads your changes as you work.
+- AI agent project structure
+- Modern Next.js application
+- TypeScript-based development
+- Reusable React components
 
-## Learn more
+## Getting Started
 
-To learn more about eve, explore these resources:
-
-- [eve documentation](https://eve.dev/docs) — learn about eve's features and authoring APIs.
-- [Build an Agent tutorial](https://eve.dev/docs/tutorial/first-agent) — build and deploy an agent step by step.
-- [eve on GitHub](https://github.com/vercel/eve) — view the source and contribute.
-
-## Deploy on Vercel
-
-Deploy your agent to [Vercel](https://vercel.com) from the project root:
+### 1. Clone the repository
 
 ```bash
-eve deploy
+git clone https://github.com/Callibstar7/caleb-agent.git
 ```
 
-`eve deploy` links a Vercel project if needed and deploys the agent to production. See the [eve deployment documentation](https://eve.dev/docs/guides/deployment/vercel) for authentication, environment variables, and deployment options.
+### 2. Enter the project directory
+
+```bash
+cd caleb-agent
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser at:
+
+`http://localhost:3000`
+
+## Developer
+
+**Ibezim Caleb**
+
+- GitHub: https://github.com/Callibstar7
+- Portfolio: https://my-portfolio-blue-delta-79b741qruz.vercel.app
+
+---
+
+Built with Next.js, TypeScript and the Eve agent framework.
